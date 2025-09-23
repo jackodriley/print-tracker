@@ -10,7 +10,7 @@ import pydeck as pdk
 
 st.set_page_config(page_title="Observer Retail Sales – Week Change Reporter", layout="wide")
 st.title("🗞️ Observer Retail Sales – Week Change Reporter")
-st.caption("Upload an XLS/XLSX/CSV where weekly sales are in **columns** (date headers). The app finds the latest two weeks and shows changes by location.")
+st.caption("Upload an XLS/XLSX/CSV where weekly sales are in **columns** (date headers). The app finds the latest two weeks, and shows changes by location.")
 
 # -----------------------------
 # Helpers
@@ -332,7 +332,7 @@ st.dataframe(present(winners), use_container_width=True, hide_index=True)
 
 st.markdown("### 🔽 Top declines")
 decliners = view[view["_abs_change"] < 0].sort_values(by=["_abs_change", "_pct_change"], ascending=[True, True]).head(int(top_n))
-st.dataframe(present(decliners), use_container_width=True)
+st.dataframe(present(decliners), use_container_width=True, hide_index=True)
 
 # Category week-on-week rollup (only when ALL is selected and a category column exists)
 if 'category_col' in locals() and category_col and 'selected_category' in locals() and selected_category == "ALL":
