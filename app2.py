@@ -8,7 +8,7 @@ import altair as alt
 import re
 import pydeck as pdk
 
-st.set_page_config(page_title="Observer Retail Sales – Week Change Reporter", layout="wide")
+st.set_page_config(page_title="Observer Retail Sales – Week Change Reporter - v0.1", layout="wide")
 st.title("🗞️ Observer Retail Sales – Week Change Reporter")
 st.caption("Upload an XLS/XLSX/CSV where weekly sales are in **columns** (date headers). The app finds the latest two weeks, and shows changes by location.")
 
