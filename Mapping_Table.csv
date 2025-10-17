@@ -48,12 +48,12 @@ James Hall Independents,Independents
 James Retail,Other
 Lidl,Lidl
 M Daily,McColls
-MMRG CTN,Other
-MMRG Convenience,Other
-MMRG Express / Metro,Other
-MMRG High Street,Other
-MMRG Neighbourhood Convenience / Village,Other
-MMRG Neighbourhood Newsagent,Other
+MMRG CTN,McColls
+MMRG Convenience,McColls
+MMRG Express / Metro,McColls
+MMRG High Street,McColls
+MMRG Neighbourhood Convenience / Village,McColls
+MMRG Neighbourhood Newsagent,McColls
 MRH Retail,Other
 Mace,Other
 Marks & Spencers,Marks & Spencer
@@ -65,9 +65,9 @@ Morrisons Safeway Forecourts,Morrisons
 Morrisons Safeway Supermarkets,Morrisons
 Motor Fuel Solutions,Other
 Murco,Other
-Musgrave Budgens,Other
-Musgrave Centra,Other
-Musgrave Londis,Other
+Musgrave Budgens,Musgrave
+Musgrave Centra,Musgrave
+Musgrave Londis,Musgrave
 News Plus,Other
 Newsteam Group,Other
 Nisa,Other
@@ -115,9 +115,9 @@ Total,Other
 UNKNOWN,Other
 V G Stores,Other
 WHS T Moto Services,Other
-Waitrose,Other
-Waitrose Convenience,Other
-Waitrose Petrol,Other
+Waitrose,Waitrose
+Waitrose Convenience,Waitrose
+Waitrose Petrol,Waitrose
 Warners Holidays,Other
 Welcome Break Forecourts,Other
 Wilson J&J,Other
